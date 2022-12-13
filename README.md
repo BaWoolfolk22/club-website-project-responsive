@@ -1,2 +1,2 @@
 # club-website-project-responsive
- codecademy resonsive website club page
+ codecademy responsive website club page
