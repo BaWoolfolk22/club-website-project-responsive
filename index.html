@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Club Website</title>
+    <!-- css -->
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+
+    <!--fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header class="hero-banner">            
+            <nav>
+                <a class="logo" title="Interior Circle" href="https://github.com/BaWoolfolk22"><span>Interior<br>Circle</span></a>
+                <ul>
+                    <li><a title="About us" href="#home">Home</a> </li>
+                    <li><a title="Events" href="#events">Events</a></li>
+                    <li><a title="News" href="#newsletter">Newsletter</a></li>
+                    <li><a title="contact" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <h1>Welcome to the Interior Circle</h1>
+                <h2>Helping designers network and stay current in their careers</h2>
+            </div>
+        </header>
+    <section id="flex-container">
+        <aside>
+            <h3>What We Do</h3>
+            <p>Advocate for the interior design industry, provide education for designers and design students, connect designers with vendors and mentors</p>
+           <img src="images/people-2.jpg" style="width:50%; height: auto;">
+        </aside>
+        <aside>
+            <h3>Who Can Join?</h3>
+            <p>Anyone interested in Interior Design! Whether you are just starting out as a junior or a seasoned senior level designer everyone is welcome.</p>
+            <img src="images/young-woman.jpg" style="width:50%; height: auto;">
+        </aside>
+        <aside>
+                <h3>Why Join Interior Circle?</h3>
+                <p>This is a great organization to bring designers together to share their creative ideas through events and the our website.</p>
+                <img src="images/group-designers.jpg" style="width:56%; height:auto;">
+        </aside>
+    </section>
+    <section class="article">
+        <div class="monthly-article">
+            <h3>Designer of the Month</h3>
+            <h4>Jane Doe</h4>
+            <h5>Colaborate Interiors</h5>
+            <img src="images/Jane_doe.jpg" style="width:90%; height:auto;"></div>
+        </div> 
+        <aside class="jane">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quasi obcaecati
+                 vitae ratione rem labore quo fugit consequuntur architecto quibusdam a commodi,
+                  velit quia magnam ullam voluptas, eos placeat provident! Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                  Debitis nihil veniam accusantium optio veritatis illum delectus repellendus, numquam inventore!
+                   Maiores similique eligendi ut magnam optio officiis consequuntur sint voluptatibus labore provident, 
+                   esse fuga ullam at quisquam atque nulla enim illo possimus consectetur numquam! Modi facere architecto 
+                   soluta aut dignissimos nulla.
+                </p>
+        </aside>
+    </section>
+    
+        <section class="article-container">
+            <h2 id="newsletter">Check Out our Monthly Newsletter</h2>
+            <h4>My 3 Favorite Design Principles</h4>
+            
+            <aside>
+                <figure>
+                    <h5>Emphasis</h5>
+                    <img src="images/kidsrm.jpg" alt="kids-bedroom" style="width:80%; height:auto;">
+                    <p>Make a mental outline. Let your brain organize the information and then lay out your design in a way 
+                        that communicates that order. 
+                    </p>
+                   
+                </figure>
+            
+                    <figure>
+                        <h5>Contrast</h5>
+                        <img src="images/bathroom-interior.jpg" alt="bathroom" style="width:80%; height:auto;">
+                        <p>Contrast is what people mean when they say a design “pops.” It sticks in your memory. 
+                            Contrast creates space and difference between elements in your design. 
+                        </p>
+                    </figure>
+               
+                    <figure>
+                        <h5>Balance and Alignment</h5>
+                        <img src="images/kitchen.jpg" alt="kitchen" style="width:80%; height:auto;">
+                        <p>Symmetrical design creates balance through equally weighted elements aligned on either side of a center line. 
+                        </p>
+                    </figure> 
+            </aside>
+            </section>
+       
+    
+
+      <section class="events">
+            <h3 id="events">Ways to Connect</h3>
+            <h4>Seminars</h4>
+                <div class="seminars">
+                    <p>Network at our one annual Interior Circle seminar with designers all over the country</p>
+                    <figure>
+                        <img src="images/seminar-2.jpg"style="height:auto;">
+                        <figcaption>seminar picture</figcaption>
+                    </figure>
+                </div>
+
+                <h4>Cocktail Hour & Wine Mixers</h4>
+                <p>You can connect local through our many wine and cocktail hours that happen monthly.</p>
+            <aside>
+                <figure>
+                    <img src="images/mixer-event.jpg" style="width:90%; height:auto;">
+                    <figcaption>Mixer</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/cocktail-1.jpg" style="width:90%; height:auto;">
+                    <figcaption>Cocktail hour</figcaption>
+                </figure>
+            </aside>
+        </section>
+
+
+    <section class="connect">   
+        <h3 id="contact">Let's Connect</h3>
+        <h4>Tell us about yourself</h4>
+    
+            <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                <br>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your Email Address.." required>
+
+                <label for="psw">Password</label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw-repeat">Repeat Password</label>
+                <input type="password" placeholder="Repeat Password" name="psw" required>
+
+                <label for="message">Message</label>
+                    <input type="text" placeholder="message" name="message">
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">Remember me</label>
+                </label>
+                <p>By creating an account you agree to our <a href="#" style="color: #fff">Terms & Privacy</a></p>
+
+                <div class="cleafix">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="notes">
+            <ul>
+                <li>&copy; Interior Circle</li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Serivce</a></li>
+                <li>Challenge by&nbsp<a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+                <li>Coded by&nbsp<a href="https://github.com/BaWoolfolk22?tab=projects&type=beta"target="_blank">Bianca Woolfolk</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+ 
+
+
+
+
+    
+   
+   
